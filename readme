@@ -1,0 +1,23 @@
+this project will help you to use Docker Compose to set up and run a simple Django/PostgreSQL app.
+
+instrusction to be follwed:
+-->install docker engine and docker compose
+-->create a folder in your root directory and place Dockefile,docker-compose.yml and reuirement.txt and don't copy the file  manage.py and composeexample folder
+Now RUN THESE COMMAND 
+--> docker-compose run web django-admin startproject composeexample .
+(.)is import  becuase it will tell the command to create any file in the same directory
+
+now folder call composeexample will be create in your project directary
+replace the setting.py with my setting.py
+then you are good to go
+now RUN
+-->docker-compose up
+
+NOW your installation will start begin
+
+NOW you can acess the wepage Django using IPaddress of your host with port no 8000
+<hostipaddreess:8000>
+
+and now you can add some templete and use it as you want.
+
+ENJOY!!
